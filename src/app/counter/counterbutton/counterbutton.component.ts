@@ -13,13 +13,13 @@ export class CounterbuttonComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  onIncremenet(){
+  onIncrement(){
     this.store.dispatch(increment());
   }
   onDecrement(){
     this.store.dispatch(decrement());
   }
-  onReset(){
+  Reset(){
     this.store.dispatch(reset());
   }
 }
